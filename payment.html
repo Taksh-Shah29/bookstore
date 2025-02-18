@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment | Book Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="payment-container">
+        <h2>Complete Your Payment</h2>
+        <form action="success.html">
+            <label>Payment Method:</label>
+            <select required>
+                <option value="">Select Payment Method</option>
+                <option value="upi">UPI</option>
+                <option value="card">Credit Card</option>
+            </select>
+
+            <input type="text" name="details" placeholder="Enter UPI ID or Card Number" required>
+            <button type="submit">Buy Now</button>
+        </form>
+    </div>
+
+</body>
+</html>
